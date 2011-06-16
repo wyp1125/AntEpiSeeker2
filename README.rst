@@ -8,7 +8,7 @@ compiling. Compile the program using "g++ AntEpiSeeker.cpp
 
 On windows systems: GNU Scientific Library (GSL) files
 "libgsl.dll","libslcblas.dll" and "WinGsl.dll" should be put in the same
-folder with AntEpiSeeker as well as your system folder(e.g.,
+folder with AntEpiSeeker as well as your system folder (e.g.,
 "c:\\windows\\system32"). Compile the program using a C++ compiler.
 
 2) Input Format
