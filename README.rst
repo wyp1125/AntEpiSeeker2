@@ -51,7 +51,7 @@ The parameter "iEpiModel" specifies the number of SNPs in an epistatic interacti
 
 The parameter "iItCountHsize" should be chosen according to the number of SNPs
 genotyped in the data. Typically, we suggest iItCountHsize=200 for <=100000 SNPs
-and iItCountLarge=1000 for >100000 SNPs.
+and iItCountHsize=1000 for >100000 SNPs.
 
 
 4) Output
