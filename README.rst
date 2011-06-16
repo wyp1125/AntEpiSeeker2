@@ -17,23 +17,23 @@ The user should create a tab-delimited file which contains the case-control geno
 as the input for the program. The first row of the input file contains the
 sample status (0 or 1). The following rows are the genotype data which should
 be coded by 0, 1 and 2 with each row corresponding to one SNP. For example,
-"
+
 class	1	1	1	0	0
 rs1	0	1	1	2	2
 rs2	1	2	0	1	2
 rs3	2	2	1	2	1
 rs4	2	2	1	1	2
-"
+
 
 The user should also make a tab-delimited file which contains information of
 pathway-SNP associations. Each pathway should be placed in one row, with first
 column specifying the pathway ID and the following columns containing its
 associated SNPs. For example,
-"
+
 pw1	rs1	rs2	rs3
 pw2	rs4	rs5
 pw3	rs6	rs7	rs8	rs9
-"
+
 
 A complete testing dataset is available at
 http://lambchop.ads.uga.edu/AntEpiSeeker2_testing_data.zip.
