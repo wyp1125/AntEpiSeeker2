@@ -31,7 +31,9 @@ column specifying the pathway ID and the following columns containing its
 associated SNPs. For example,
 
 pw1	rs1	rs2	rs3
+
 pw2	rs4	rs5
+
 pw3	rs6	rs7	rs8	rs9
 
 
