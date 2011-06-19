@@ -19,6 +19,7 @@ sample status (0 or 1). The following rows are the genotype data which should
 be coded by 0, 1 and 2 with each row corresponding to one SNP. For example,
 
 class	1	1	1	0	0
+
 rs1	0	1	1	2	2
 
 rs2	1	2	0	1	2
