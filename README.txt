@@ -20,7 +20,7 @@ pw1 rs1 rs2 rs3
 pw2 rs4 rs5
 pw3 rs6 rs7 rs8 rs9
 
-A complete testing dataset is available at http://lambchop.ads.uga.edu/AntEpiSeeker2_testing_data.zip.
+"testing_genotypes.txt" and "testing_pwy2snp.txt" are a complete testing dataset.
 
 3.Parameter file
 The parameters for running AntEpiSeeker are specified in the "parameters.txt" file. These parameters include iAntCount, iItCountHsize, alpha, iTopModel, iTopLoci, rou, phe, largesetsize, smallsetsize, iEpiModel, pvalue, pwprop, PWSNPFL, INPFILE, OUTFILE and PWYFILE.
