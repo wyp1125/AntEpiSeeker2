@@ -739,7 +739,7 @@ if(mod==3)
 {
 result.open(path,ios::app);
 result<<"#####################Intermediate results############################"<<endl;
-result<<"Top ranking haplotypes"<<endl;
+result<<"Top ranking SNP sets"<<endl;
 for(i=iTopModel-1;i>=0;i--)
 {
     for(j=0;j<iLociModel;j++)
