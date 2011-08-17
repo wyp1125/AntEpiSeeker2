@@ -1,0 +1,17 @@
+iAntCount	5000    //number of ants
+iItCountHsize	200       //number of iterations for the each size of SNP sets
+alpha	1               //weight given to pheromone deposited by ants
+iTopModel	1000     //number of top ranking SNP sets in the first stage 
+iTopLoci	200      //number of loci with top ranking pheromone in the first stage
+rou	0.02       //evaporation rate in Ant Colony Optimizaion
+phe	100        //initial pheromone level for each locus
+largesetsize	6     //size of the large SNP set
+smallsetsize	3     //size of the small SNP set
+iEpiModel	2     //number of SNPs in an epistatic interaction
+pvalue	0.01          //p value threshold (after Bonferroni correction)
+pwprop	1	//proportion of SNPs within a pathway used for computing the pathway pheromone level
+weighted	1	//adjust the contributions of overlapping SNPs for the number of involved pathways? 1:adjusted; 0:not adjusted
+PWSNPFL	testing_pwy2snp.txt	//input file for mapping pathways and snps	
+INPFILE	testing_genotypes.txt     //input file for case-control genotype data
+OUTFILE	result.txt    //output file showing detected epistatic interactions
+PWYFILE	pathway.txt	//output file showing sorted pathways
